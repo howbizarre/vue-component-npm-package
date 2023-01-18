@@ -1,2 +1,2 @@
-import VueComponentNpmPackage from "./VueComponentNpmPackage.vue";
-export { VueComponentNpmPackage };
+import VueMonthCalendar from "./VueMonthCalendar.vue";
+export { VueMonthCalendar };

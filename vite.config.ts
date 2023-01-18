@@ -1,6 +1,6 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { resolve } from "path";
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,9 +8,9 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "lib/main.ts"),
-            name: "VueComponentNpmPackage",
+            name: "VueMonthCalendar",
             // the proper extensions will be added
-            fileName: "vue-component-npm-package",
+            fileName: "vue-month-calendar",
         },
         rollupOptions: {
             // make sure to externalize deps that shouldn't be bundled

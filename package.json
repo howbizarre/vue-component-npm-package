@@ -1,17 +1,17 @@
 {
-    "name": "@howbizarre/vue-component-npm-package",
-    "version": "0.0.6",
+    "name": "@howbizarre/vue-month-calendar",
+    "version": "1.0.1",
     "type": "module",
     "files": [
         "dist"
     ],
-    "main": "./dist/vue-component-npm-package.umd.cjs",
-    "module": "./dist/vue-component-npm-package.js",
+    "main": "./dist/vue-month-calendar.umd.cjs",
+    "module": "./dist/vue-month-calendar.js",
     "types": "./dist/main.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/vue-component-npm-package.js",
-            "require": "./dist/vue-component-npm-package.umd.js"
+            "import": "./dist/vue-month-calendar.js",
+            "require": "./dist/vue-month-calendar.umd.js"
         },
         "./dist/style.css": "./dist/style.css"
     },

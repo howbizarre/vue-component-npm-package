@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import VueComponentNpmPackage from '../lib/VueComponentNpmPackage.vue'
+import VueMonthCalendar from "../lib/VueMonthCalendar.vue";
 </script>
 
 <template>
-  <VueComponentNpmPackage msg="Vue Component npm Example" />
+  <VueMonthCalendar msg="Vue Month Calendar" />
 </template>
